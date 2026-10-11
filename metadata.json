@@ -1,0 +1,6 @@
+{
+  "name": "RVCYBER AGENT",
+  "description": "Full-Stack AI Cybersecurity Agent, Animated Video Generator & Hacker Community Platform",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  rvcyber-agent:
+    build: .
+    container_name: rvcyber-agent-app
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - SESSION_SECRET=${SESSION_SECRET:-rvcyber-production-crypto-key-991}
+    volumes:
+      - ./data:/app/data
+      - ./uploads:/app/uploads

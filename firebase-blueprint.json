@@ -1,0 +1,112 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User profile information",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "username": { "type": "string" },
+        "displayName": { "type": "string" },
+        "email": { "type": "string" },
+        "role": { "type": "string", "enum": ["USER", "OWNER"] },
+        "bio": { "type": "string" },
+        "avatar": { "type": "string" },
+        "status": { "type": "string", "enum": ["active", "suspended"] },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "username", "role"]
+    },
+    "Article": {
+      "title": "Article",
+      "description": "Cybersecurity research article",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "slug": { "type": "string" },
+        "summary": { "type": "string" },
+        "content": { "type": "string" },
+        "authorId": { "type": "string" },
+        "authorName": { "type": "string" },
+        "category": { "type": "string" },
+        "isPublished": { "type": "boolean" },
+        "viewsCount": { "type": "number" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "title", "content", "authorId"]
+    },
+    "VideoProject": {
+      "title": "VideoProject",
+      "description": "Synthesized cybersecurity video project",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "topic": { "type": "string" },
+        "language": { "type": "string" },
+        "durationSeconds": { "type": "number" },
+        "status": { "type": "string" },
+        "progress": { "type": "number" },
+        "videoUrl": { "type": "string" },
+        "isPublic": { "type": "boolean" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "userId", "title", "topic"]
+    },
+    "DocumentItem": {
+      "title": "DocumentItem",
+      "description": "Educational PDF guide or handbook",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "category": { "type": "string" },
+        "author": { "type": "string" },
+        "uploaderId": { "type": "string" },
+        "fileSize": { "type": "string" },
+        "downloadsCount": { "type": "number" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "title", "uploaderId"]
+    },
+    "CommunityPost": {
+      "title": "CommunityPost",
+      "description": "Discussion post and thread",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "authorId": { "type": "string" },
+        "category": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "title", "content", "authorId"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/User" },
+      "description": "User profile collection"
+    },
+    "/articles/{articleId}": {
+      "schema": { "$ref": "#/entities/Article" },
+      "description": "Published articles collection"
+    },
+    "/videos/{videoId}": {
+      "schema": { "$ref": "#/entities/VideoProject" },
+      "description": "Video projects collection"
+    },
+    "/documents/{documentId}": {
+      "schema": { "$ref": "#/entities/DocumentItem" },
+      "description": "Shared PDF documents collection"
+    },
+    "/posts/{postId}": {
+      "schema": { "$ref": "#/entities/CommunityPost" },
+      "description": "Community discussion posts collection"
+    }
+  }
+}

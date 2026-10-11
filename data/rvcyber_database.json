@@ -1,0 +1,686 @@
+{
+  "users": [
+    {
+      "id": "owner-1791708118195",
+      "username": "rahul_amirisetti",
+      "email": "rahulamirisetti@gmail.com",
+      "passwordHash": "$2b$12$l/6aLk1Xu012oXAicp4m1.pZqBSmB76YO72EwQhXFymQSQQNlQH7u",
+      "displayName": "Rahul Cyber Architect",
+      "bio": "Owner & Chief Administrator of RVCYBER AGENT",
+      "avatar": "",
+      "role": "OWNER",
+      "skills": [
+        "Application Security",
+        "Threat Intelligence",
+        "Platform Administration"
+      ],
+      "interests": [
+        "Zero Trust Architecture",
+        "AI-assisted Cyber Defense"
+      ],
+      "status": "active",
+      "createdAt": "2026-10-11T08:41:58.196Z",
+      "updatedAt": "2026-10-11T08:41:58.196Z"
+    },
+    {
+      "id": "user-1791707443705-92ylj",
+      "username": "student_43313",
+      "email": "student_43313@rvcyber.local",
+      "passwordHash": "$2b$12$pO4/vmgh3VfM9BZzoayJ4u2f.FczVlbBwlOiYs94UWOSwhSJCumgS",
+      "displayName": "Hacked Display",
+      "bio": "Attempting escalation",
+      "avatar": "",
+      "role": "USER",
+      "skills": [],
+      "interests": [],
+      "status": "active",
+      "createdAt": "2026-10-11T08:30:43.705Z",
+      "updatedAt": "2026-10-11T08:30:43.710Z"
+    },
+    {
+      "id": "user-1791707444069-g2odo",
+      "username": "researcher_43313",
+      "email": "beta_43313@rvcyber.local",
+      "passwordHash": "$2b$12$hGbCw2Y5Cf/chhijx0CDN.gefiB5733EZq.cxF/mVq6aUvQuopwYO",
+      "displayName": "Beta Researcher",
+      "bio": "",
+      "avatar": "",
+      "role": "USER",
+      "skills": [],
+      "interests": [],
+      "status": "suspended",
+      "createdAt": "2026-10-11T08:30:44.069Z",
+      "updatedAt": "2026-10-11T08:30:44.072Z"
+    },
+    {
+      "id": "user-1791707545163-yeg56",
+      "username": "student_44742",
+      "email": "student_44742@rvcyber.local",
+      "passwordHash": "$2b$12$myZuugBkMyhoiwQlZ/6qoO7x/b0JGaGwJ9isUrt/TJj0uXhn5e0l6",
+      "displayName": "Hacked Display",
+      "bio": "Attempting escalation",
+      "avatar": "",
+      "role": "USER",
+      "skills": [],
+      "interests": [],
+      "status": "active",
+      "createdAt": "2026-10-11T08:32:25.163Z",
+      "updatedAt": "2026-10-11T08:32:25.164Z"
+    },
+    {
+      "id": "user-1791707545542-xkzau",
+      "username": "researcher_44742",
+      "email": "beta_44742@rvcyber.local",
+      "passwordHash": "$2b$12$J.neEbL2dsiOfpZeuIsC1.6hIdYNn838lKJhJxdK.BbEEu1cAhVg6",
+      "displayName": "Beta Researcher",
+      "bio": "",
+      "avatar": "",
+      "role": "USER",
+      "skills": [],
+      "interests": [],
+      "status": "suspended",
+      "createdAt": "2026-10-11T08:32:25.542Z",
+      "updatedAt": "2026-10-11T08:32:25.545Z"
+    },
+    {
+      "id": "user-1791707948192-o39qp",
+      "username": "student_47816",
+      "email": "student_47816@rvcyber.local",
+      "passwordHash": "$2b$12$zBnSLf2UzOX5Kn1NrnotkOqgN1RH7YwMgMRpRdnH35LHCEeoAT.kO",
+      "displayName": "Hacked Display",
+      "bio": "Attempting escalation",
+      "avatar": "",
+      "role": "USER",
+      "skills": [],
+      "interests": [],
+      "status": "active",
+      "createdAt": "2026-10-11T08:39:08.192Z",
+      "updatedAt": "2026-10-11T08:39:08.193Z"
+    },
+    {
+      "id": "user-1791707948553-6cd9u",
+      "username": "researcher_47816",
+      "email": "beta_47816@rvcyber.local",
+      "passwordHash": "$2b$12$lB7/bW9Gfa3WVR9pbSa9ROwCpCBA.ZsdhL46As4dGR4NSGfIAWq3i",
+      "displayName": "Beta Researcher",
+      "bio": "",
+      "avatar": "",
+      "role": "USER",
+      "skills": [],
+      "interests": [],
+      "status": "suspended",
+      "createdAt": "2026-10-11T08:39:08.553Z",
+      "updatedAt": "2026-10-11T08:39:08.556Z"
+    },
+    {
+      "id": "user-1791707975453-kbli0",
+      "username": "analyst_user_1",
+      "email": "analyst1@example.com",
+      "passwordHash": "$2b$12$dV/lEi2re1.we1bs4ME0nuiF3XEsaBXBlOnnolBmFO8k.8IWMUUjC",
+      "displayName": "Analyst One",
+      "bio": "",
+      "avatar": "",
+      "role": "USER",
+      "skills": [],
+      "interests": [],
+      "status": "active",
+      "createdAt": "2026-10-11T08:39:35.453Z",
+      "updatedAt": "2026-10-11T08:39:35.453Z"
+    },
+    {
+      "id": "user-1791708140165-g32e2",
+      "username": "student_39794",
+      "email": "student_39794@rvcyber.local",
+      "passwordHash": "$2b$12$rjZh/jco6zbeA9aJsjthouhuSbY9UwtnUG4qJHbHJQFVrhJTUKU6O",
+      "displayName": "Hacked Display",
+      "bio": "Attempting escalation",
+      "avatar": "",
+      "role": "USER",
+      "skills": [],
+      "interests": [],
+      "status": "active",
+      "createdAt": "2026-10-11T08:42:20.165Z",
+      "updatedAt": "2026-10-11T08:42:20.166Z"
+    },
+    {
+      "id": "user-1791708140519-vv7yh",
+      "username": "researcher_39794",
+      "email": "beta_39794@rvcyber.local",
+      "passwordHash": "$2b$12$pWEUQ8NRFJ227gtG8Jvnp.gbLB/ujbklKoLWicLM0K4W.8L9Qly2e",
+      "displayName": "Beta Researcher",
+      "bio": "",
+      "avatar": "",
+      "role": "USER",
+      "skills": [],
+      "interests": [],
+      "status": "suspended",
+      "createdAt": "2026-10-11T08:42:20.519Z",
+      "updatedAt": "2026-10-11T08:42:20.522Z"
+    }
+  ],
+  "videoProjects": [
+    {
+      "userId": "user-1791708140165-g32e2",
+      "title": "Secret Pentest Lab Findings",
+      "topic": "Kerberoasting",
+      "language": "en",
+      "durationSeconds": 60,
+      "aspectRatio": "16:9",
+      "style": "terminal",
+      "voice": "Kore",
+      "narrationSpeed": 1,
+      "subtitlesEnabled": true,
+      "audience": "advanced",
+      "storyboard": [],
+      "script": "Confidential findings...",
+      "isPublic": false,
+      "id": "vid-1791708140520-qo9rq",
+      "status": "queued",
+      "progress": 0,
+      "createdAt": "2026-10-11T08:42:20.520Z",
+      "updatedAt": "2026-10-11T08:42:20.520Z"
+    },
+    {
+      "userId": "user-1791707948192-o39qp",
+      "title": "Secret Pentest Lab Findings",
+      "topic": "Kerberoasting",
+      "language": "en",
+      "durationSeconds": 60,
+      "aspectRatio": "16:9",
+      "style": "terminal",
+      "voice": "Kore",
+      "narrationSpeed": 1,
+      "subtitlesEnabled": true,
+      "audience": "advanced",
+      "storyboard": [],
+      "script": "Confidential findings...",
+      "isPublic": false,
+      "id": "vid-1791707948554-nb16o",
+      "status": "queued",
+      "progress": 0,
+      "createdAt": "2026-10-11T08:39:08.554Z",
+      "updatedAt": "2026-10-11T08:39:08.554Z"
+    },
+    {
+      "userId": "user-1791707545163-yeg56",
+      "title": "Secret Pentest Lab Findings",
+      "topic": "Kerberoasting",
+      "language": "en",
+      "durationSeconds": 60,
+      "aspectRatio": "16:9",
+      "style": "terminal",
+      "voice": "Kore",
+      "narrationSpeed": 1,
+      "subtitlesEnabled": true,
+      "audience": "advanced",
+      "storyboard": [],
+      "script": "Confidential findings...",
+      "isPublic": false,
+      "id": "vid-1791707545543-uehm7",
+      "status": "queued",
+      "progress": 0,
+      "createdAt": "2026-10-11T08:32:25.543Z",
+      "updatedAt": "2026-10-11T08:32:25.543Z"
+    },
+    {
+      "userId": "user-1791707443705-92ylj",
+      "title": "Secret Pentest Lab Findings",
+      "topic": "Kerberoasting",
+      "language": "en",
+      "durationSeconds": 60,
+      "aspectRatio": "16:9",
+      "style": "terminal",
+      "voice": "Kore",
+      "narrationSpeed": 1,
+      "subtitlesEnabled": true,
+      "audience": "advanced",
+      "storyboard": [],
+      "script": "Confidential findings...",
+      "isPublic": false,
+      "id": "vid-1791707444070-e5az1",
+      "status": "queued",
+      "progress": 0,
+      "createdAt": "2026-10-11T08:30:44.070Z",
+      "updatedAt": "2026-10-11T08:30:44.070Z"
+    }
+  ],
+  "articles": [
+    {
+      "title": "Deep Packet Inspection on Port 8080",
+      "slug": "deep-packet-inspection-port-8080",
+      "summary": "Packet headers overview",
+      "content": "Full writeup content...",
+      "category": "Network Security",
+      "tags": [
+        "Wireshark",
+        "PCAP"
+      ],
+      "isPublished": true,
+      "id": "art-1791708140520-uitr",
+      "authorId": "user-1791708140165-g32e2",
+      "authorName": "Hacked Display",
+      "authorUsername": "student_39794",
+      "authorAvatar": "",
+      "viewsCount": 0,
+      "likesCount": 0,
+      "createdAt": "2026-10-11T08:42:20.520Z",
+      "updatedAt": "2026-10-11T08:42:20.520Z"
+    },
+    {
+      "title": "Deep Packet Inspection on Port 8080",
+      "slug": "deep-packet-inspection-port-8080",
+      "summary": "Packet headers overview",
+      "content": "Full writeup content...",
+      "category": "Network Security",
+      "tags": [
+        "Wireshark",
+        "PCAP"
+      ],
+      "isPublished": true,
+      "id": "art-1791707948555-h84j",
+      "authorId": "user-1791707948192-o39qp",
+      "authorName": "Hacked Display",
+      "authorUsername": "student_47816",
+      "authorAvatar": "",
+      "viewsCount": 0,
+      "likesCount": 0,
+      "createdAt": "2026-10-11T08:39:08.555Z",
+      "updatedAt": "2026-10-11T08:39:08.555Z"
+    },
+    {
+      "title": "Deep Packet Inspection on Port 8080",
+      "slug": "deep-packet-inspection-port-8080",
+      "summary": "Packet headers overview",
+      "content": "Full writeup content...",
+      "category": "Network Security",
+      "tags": [
+        "Wireshark",
+        "PCAP"
+      ],
+      "isPublished": true,
+      "id": "art-1791707545544-3nvz",
+      "authorId": "user-1791707545163-yeg56",
+      "authorName": "Hacked Display",
+      "authorUsername": "student_44742",
+      "authorAvatar": "",
+      "viewsCount": 0,
+      "likesCount": 0,
+      "createdAt": "2026-10-11T08:32:25.544Z",
+      "updatedAt": "2026-10-11T08:32:25.544Z"
+    },
+    {
+      "title": "Deep Packet Inspection on Port 8080",
+      "slug": "deep-packet-inspection-port-8080",
+      "summary": "Packet headers overview",
+      "content": "Full writeup content...",
+      "category": "Network Security",
+      "tags": [
+        "Wireshark",
+        "PCAP"
+      ],
+      "isPublished": true,
+      "id": "art-1791707444071-6sty",
+      "authorId": "user-1791707443705-92ylj",
+      "authorName": "Hacked Display",
+      "authorUsername": "student_43313",
+      "authorAvatar": "",
+      "viewsCount": 0,
+      "likesCount": 0,
+      "createdAt": "2026-10-11T08:30:44.071Z",
+      "updatedAt": "2026-10-11T08:30:44.071Z"
+    },
+    {
+      "id": "art-1",
+      "authorId": "system",
+      "authorName": "RVCYBER Threat Research",
+      "authorUsername": "rvcyber_sec",
+      "authorAvatar": "",
+      "title": "Understanding SQL Injection: From Syntax Breakdown to Prepared Statements",
+      "slug": "understanding-sql-injection-syntax-breakdown",
+      "summary": "A deep-dive technical guide into how relational databases interpret unfiltered input, blind vs error-based SQLi, and modern parameterized queries.",
+      "content": "## What is SQL Injection (SQLi)?\n\nSQL Injection occurs when untrusted user input is directly concatenated into a dynamic SQL query without validation or parameterization. This allows an attacker to alter the query logic executed by the database engine.\n\n```sql\n-- Vulnerable Dynamic Query:\nSELECT * FROM users WHERE username = 'admin' AND password = '' OR '1'='1';\n```\n\n### Safe Defense: Parameterized Queries\n\nAlways use prepared statements where variables are treated as literal data, never executable syntax:\n\n```typescript\n// Safe parameterized query in modern Node.js / PostgreSQL:\nconst query = 'SELECT id, email, role FROM users WHERE username = $1 AND status = $2';\nconst result = await db.query(query, [inputUsername, 'active']);\n```\n\n### Key Takeaways\n1. Never concatenate raw strings into SQL statements.\n2. Employ least privilege principles for database service credentials.\n3. Validate and enforce type constraints at application boundaries.",
+      "category": "Web Security",
+      "tags": [
+        "OWASP",
+        "SQLi",
+        "Defense",
+        "AppSec"
+      ],
+      "isPublished": true,
+      "viewsCount": 342,
+      "likesCount": 58,
+      "createdAt": "2026-10-08T06:56:18.148Z",
+      "updatedAt": "2026-10-08T06:56:18.148Z"
+    },
+    {
+      "id": "art-2",
+      "authorId": "system",
+      "authorName": "Defense Matrix Labs",
+      "authorUsername": "matrix_analyst",
+      "authorAvatar": "",
+      "title": "SOC Analyst Incident Response Playbook: Investigating Suspicious PowerShell Execution",
+      "slug": "soc-incident-response-powershell-analysis",
+      "summary": "Practical steps for Security Operations Center triage when Windows Event ID 4104 flags encoded base64 PowerShell commands.",
+      "content": "## Event Log Analysis for Windows Endpoint Triage\n\nWhen monitoring endpoints via Sysmon or Windows Event Forwarding, PowerShell Script Block Logging (Event ID 4104) provides full visibility into decoded commands.\n\n### Triage Workflow:\n1. **Identify Parent Process:** Was powershell.exe spawned by cmd.exe, winword.exe, or an administrative scheduler?\n2. **Decode EncodedCommand:** Extract the Base64 string and decode Unicode bytes safely in an isolated sandbox.\n3. **Network Telemetry:** Check firewall and proxy logs for external IP sockets created within 30 seconds of execution.\n\n```powershell\n# Safe Sandbox decoding of suspicious script block:\n$encoded = \"V3JpdGUtSG9zdCAnaGVsbG8n\"\n[System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String($encoded))\n```\n\n### Remediation\nIsolate the machine from the network subnet, revoke active Kerberos tickets, and collect volatile memory dump using FTK Imager.",
+      "category": "SOC & Incident Response",
+      "tags": [
+        "SOC",
+        "BlueTeam",
+        "PowerShell",
+        "WindowsSecurity"
+      ],
+      "isPublished": true,
+      "viewsCount": 215,
+      "likesCount": 39,
+      "createdAt": "2026-10-09T06:56:18.148Z",
+      "updatedAt": "2026-10-09T06:56:18.148Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-1",
+      "uploaderId": "system",
+      "uploaderUsername": "rvcyber_sec",
+      "uploaderName": "RVCYBER Library",
+      "title": "OWASP Top 10 Web Application Security Reference Guide",
+      "description": "Comprehensive reference document detailing modern web application security risks including Broken Access Control, Cryptographic Failures, and Injection.",
+      "category": "Web Security",
+      "tags": [
+        "OWASP",
+        "AppSec",
+        "Reference"
+      ],
+      "author": "OWASP Foundation (Open Source Distribution)",
+      "fileSize": "2.4 MB",
+      "pageCount": 48,
+      "fileUrl": "/uploads/documents/owasp-top-10-guide.pdf",
+      "previewSnippet": "This document provides a consensus-based overview of critical security vulnerabilities in web applications, complete with remediation code patterns and threat modeling examples.",
+      "isPublic": true,
+      "downloadsCount": 142,
+      "createdAt": "2026-10-06T06:56:18.148Z"
+    },
+    {
+      "id": "doc-2",
+      "uploaderId": "system",
+      "uploaderUsername": "rvcyber_sec",
+      "uploaderName": "RVCYBER Library",
+      "title": "Linux Command Line Survival Guide for Security Analysts",
+      "description": "Quick reference sheet covering grep, awk, sed, netstat, ss, tcpdump, and journalctl for log analysis and incident investigation.",
+      "category": "Linux & Systems",
+      "tags": [
+        "Linux",
+        "Bash",
+        "Networking",
+        "Forensics"
+      ],
+      "author": "RVCYBER Research Team",
+      "fileSize": "1.1 MB",
+      "pageCount": 24,
+      "fileUrl": "/uploads/documents/linux-security-handbook.pdf",
+      "previewSnippet": "Command syntax reference for incident triage on Debian and RHEL systems: analyzing /var/log/auth.log, listening sockets, and process hierarchy.",
+      "isPublic": true,
+      "downloadsCount": 98,
+      "createdAt": "2026-10-07T06:56:18.148Z"
+    }
+  ],
+  "communityPosts": [
+    {
+      "id": "post-1",
+      "authorId": "system",
+      "authorName": "Security Ops Team",
+      "authorUsername": "rvcyber_sec",
+      "authorAvatar": "",
+      "title": "Tips for passing the CompTIA Security+ or CEH exams on first attempt",
+      "content": "What study resources, practice question banks, and lab exercises helped you the most? Share your study timeline and key focus areas like cryptographic protocols and attack vectors.",
+      "category": "Certifications",
+      "tags": [
+        "SecurityPlus",
+        "CEH",
+        "StudyTips"
+      ],
+      "upvotes": 18,
+      "replies": [
+        {
+          "id": "rep-1",
+          "authorId": "user-sample",
+          "authorName": "Arjun Cyber",
+          "authorUsername": "arjun_def",
+          "authorAvatar": "",
+          "content": "Focus heavily on ports, protocols, and scenario-based log analysis questions. Doing hands-on packet captures in Wireshark helped solidify TCP flags!",
+          "createdAt": "2026-10-10T06:56:18.148Z"
+        }
+      ],
+      "createdAt": "2026-10-08T06:56:18.148Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit-1791708140522-nrhz",
+      "timestamp": "2026-10-11T08:42:20.522Z",
+      "action": "USER_STATUS_CHANGE",
+      "actorId": "owner-1791708118195",
+      "actorUsername": "rahul_amirisetti",
+      "details": "Updated user researcher_39794 status to suspended",
+      "severity": "warning"
+    },
+    {
+      "id": "audit-1791708140519-86mq",
+      "timestamp": "2026-10-11T08:42:20.519Z",
+      "action": "USER_REGISTERED",
+      "actorId": "user-1791708140519-vv7yh",
+      "actorUsername": "researcher_39794",
+      "details": "New regular user account registered.",
+      "severity": "info"
+    },
+    {
+      "id": "audit-1791708140165-ae48",
+      "timestamp": "2026-10-11T08:42:20.165Z",
+      "action": "USER_REGISTERED",
+      "actorId": "user-1791708140165-g32e2",
+      "actorUsername": "student_39794",
+      "details": "New regular user account registered.",
+      "severity": "info"
+    },
+    {
+      "id": "audit-1791708135540-o4dk",
+      "timestamp": "2026-10-11T08:42:15.540Z",
+      "action": "LOGIN_SUCCESS",
+      "actorId": "owner-1791708118195",
+      "actorUsername": "rahul_amirisetti",
+      "ipAddress": "127.0.0.1",
+      "details": "User logged in successfully.",
+      "severity": "info"
+    },
+    {
+      "id": "audit-1791708130915-cz8h",
+      "timestamp": "2026-10-11T08:42:10.915Z",
+      "action": "LOGIN_SUCCESS",
+      "actorId": "owner-1791708118195",
+      "actorUsername": "rahul_amirisetti",
+      "ipAddress": "127.0.0.1",
+      "details": "User logged in successfully.",
+      "severity": "info"
+    },
+    {
+      "id": "audit-1791708118196-iazh",
+      "timestamp": "2026-10-11T08:41:58.196Z",
+      "action": "OWNER_INITIALIZED",
+      "actorId": "owner-1791708118195",
+      "actorUsername": "rahul_amirisetti",
+      "details": "Owner account provisioned securely.",
+      "severity": "critical"
+    },
+    {
+      "id": "audit-1791708112871-3j5j",
+      "timestamp": "2026-10-11T08:41:52.871Z",
+      "action": "UNAUTHORIZED_ADMIN_ACCESS_ATTEMPT",
+      "actorId": "user-1791707975453-kbli0",
+      "actorUsername": "analyst_user_1",
+      "ipAddress": "127.0.0.1",
+      "details": "Non-owner attempted access to administrative route: /api/admin/stats",
+      "severity": "warning"
+    },
+    {
+      "id": "audit-1791708105816-rlj1",
+      "timestamp": "2026-10-11T08:41:45.816Z",
+      "action": "LOGIN_SUCCESS",
+      "actorId": "user-1791707975453-kbli0",
+      "actorUsername": "analyst_user_1",
+      "ipAddress": "127.0.0.1",
+      "details": "User logged in successfully.",
+      "severity": "info"
+    },
+    {
+      "id": "audit-1791708073398-3v47",
+      "timestamp": "2026-10-11T08:41:13.398Z",
+      "action": "UNAUTHORIZED_ADMIN_ACCESS_ATTEMPT",
+      "actorId": "user-1791707975453-kbli0",
+      "actorUsername": "analyst_user_1",
+      "ipAddress": "127.0.0.1",
+      "details": "Non-owner attempted access to administrative route: /api/admin/stats",
+      "severity": "warning"
+    },
+    {
+      "id": "audit-1791707983027-jg55",
+      "timestamp": "2026-10-11T08:39:43.027Z",
+      "action": "UNAUTHORIZED_ADMIN_ACCESS_ATTEMPT",
+      "actorId": "user-1791707975453-kbli0",
+      "actorUsername": "analyst_user_1",
+      "ipAddress": "127.0.0.1",
+      "details": "Non-owner attempted access to administrative route: /api/admin/stats",
+      "severity": "warning"
+    },
+    {
+      "id": "audit-1791707975453-1u9e",
+      "timestamp": "2026-10-11T08:39:35.453Z",
+      "action": "USER_REGISTERED",
+      "actorId": "user-1791707975453-kbli0",
+      "actorUsername": "analyst_user_1",
+      "details": "New regular user account registered.",
+      "severity": "info"
+    },
+    {
+      "id": "audit-1791707948556-p24l",
+      "timestamp": "2026-10-11T08:39:08.556Z",
+      "action": "USER_STATUS_CHANGE",
+      "actorId": "owner-1791707350448",
+      "actorUsername": "rahul_amirisetti",
+      "details": "Updated user researcher_47816 status to suspended",
+      "severity": "warning"
+    },
+    {
+      "id": "audit-1791707948553-p820",
+      "timestamp": "2026-10-11T08:39:08.553Z",
+      "action": "USER_REGISTERED",
+      "actorId": "user-1791707948553-6cd9u",
+      "actorUsername": "researcher_47816",
+      "details": "New regular user account registered.",
+      "severity": "info"
+    },
+    {
+      "id": "audit-1791707948192-mn1x",
+      "timestamp": "2026-10-11T08:39:08.192Z",
+      "action": "USER_REGISTERED",
+      "actorId": "user-1791707948192-o39qp",
+      "actorUsername": "student_47816",
+      "details": "New regular user account registered.",
+      "severity": "info"
+    },
+    {
+      "id": "audit-1791707545545-2j9m",
+      "timestamp": "2026-10-11T08:32:25.545Z",
+      "action": "USER_STATUS_CHANGE",
+      "actorId": "owner-1791707350448",
+      "actorUsername": "rahul_amirisetti",
+      "details": "Updated user researcher_44742 status to suspended",
+      "severity": "warning"
+    },
+    {
+      "id": "audit-1791707545542-jaoh",
+      "timestamp": "2026-10-11T08:32:25.542Z",
+      "action": "USER_REGISTERED",
+      "actorId": "user-1791707545542-xkzau",
+      "actorUsername": "researcher_44742",
+      "details": "New regular user account registered.",
+      "severity": "info"
+    },
+    {
+      "id": "audit-1791707545163-7q3g",
+      "timestamp": "2026-10-11T08:32:25.163Z",
+      "action": "USER_REGISTERED",
+      "actorId": "user-1791707545163-yeg56",
+      "actorUsername": "student_44742",
+      "details": "New regular user account registered.",
+      "severity": "info"
+    },
+    {
+      "id": "audit-1791707444072-yr2k",
+      "timestamp": "2026-10-11T08:30:44.072Z",
+      "action": "USER_STATUS_CHANGE",
+      "actorId": "owner-1791707350448",
+      "actorUsername": "rahul_amirisetti",
+      "details": "Updated user researcher_43313 status to suspended",
+      "severity": "warning"
+    },
+    {
+      "id": "audit-1791707444069-rw5d",
+      "timestamp": "2026-10-11T08:30:44.069Z",
+      "action": "USER_REGISTERED",
+      "actorId": "user-1791707444069-g2odo",
+      "actorUsername": "researcher_43313",
+      "details": "New regular user account registered.",
+      "severity": "info"
+    },
+    {
+      "id": "audit-1791707443705-sp3g",
+      "timestamp": "2026-10-11T08:30:43.705Z",
+      "action": "USER_REGISTERED",
+      "actorId": "user-1791707443705-92ylj",
+      "actorUsername": "student_43313",
+      "details": "New regular user account registered.",
+      "severity": "info"
+    },
+    {
+      "id": "audit-1791707350449-4px5",
+      "timestamp": "2026-10-11T08:29:10.449Z",
+      "action": "OWNER_INITIALIZED",
+      "actorId": "owner-1791707350448",
+      "actorUsername": "rahul_amirisetti",
+      "details": "Owner account provisioned securely.",
+      "severity": "critical"
+    },
+    {
+      "id": "audit-1791706940808-acml",
+      "timestamp": "2026-10-11T08:22:20.808Z",
+      "action": "OWNER_INITIALIZED",
+      "actorId": "owner-1791706940808",
+      "actorUsername": "rahul",
+      "details": "Owner account provisioned securely.",
+      "severity": "critical"
+    },
+    {
+      "id": "audit-1791706931829-8t5s",
+      "timestamp": "2026-10-11T08:22:11.829Z",
+      "action": "LOGIN_SUCCESS",
+      "actorId": "owner-1791706922033",
+      "actorUsername": "rahul",
+      "ipAddress": "127.0.0.1",
+      "details": "User logged in successfully.",
+      "severity": "info"
+    },
+    {
+      "id": "audit-1791706922034-c21o",
+      "timestamp": "2026-10-11T08:22:02.034Z",
+      "action": "OWNER_INITIALIZED",
+      "actorId": "owner-1791706922033",
+      "actorUsername": "rahul",
+      "details": "Owner account provisioned securely.",
+      "severity": "critical"
+    }
+  ],
+  "reports": [],
+  "meta": {
+    "ownerConfigured": true,
+    "initializedAt": "2026-10-11T08:20:00.000Z"
+  }
+}
